@@ -1,0 +1,75 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Page.master.cs" Inherits="WebApplication3.Page" %>
+
+<!DOCTYPE html>
+
+<html>
+
+
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- FOLHA DE ESTILO DO PROJETO WEBAPPLICATION3 -->
+    <link href="CSS/StyleSheet1.css" rel="stylesheet" />
+    <!-- FOLHA DE ESTILO COMUM ENTRE PROJETOS -->
+    <link href="CSS/Projeto.css" rel="stylesheet" />
+    <!-- RECURSOS JAVASCRIPT FLEXSLIDER -->
+    <link href="Js/flexslider.css" rel="stylesheet" />
+    <script src="Js/jquery-1.7.2.min.js"></script>
+    <!-- PRIMEIRO ESSE -->
+    <script src="Js/flexslider.min.js"></script>
+
+
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <!-- CABEÇALHO -->
+        <div class="content-wrapper">
+            <div class="cabecalho">
+
+                <!-- LOGOMARCA -->
+                <div class="logomarca">
+                    <img src="../Images/marca1.png" />
+                </div>
+
+                <!-- BARRA DE TÍTULO -->
+                <div class="barra-titulo">
+                    Análise e Desenvolvimento de Sistemas - 2021
+                </div>
+
+                <!-- MENU -->
+                <div class="menu">
+                    <a href="../Default.aspx">HOME</a>
+                    <a href="../Exemplos.aspx">EXEMPLOS</a>
+                    <a href="../Sobre.aspx">SOBRE</a>
+                    <a href="../Contato.aspx">CONTATO</a>
+                    <a href="../TrabalheConosco.aspx">TRABALHE CONOSCO</a>
+                    <asp:HyperLink ID="Excecoes" Visible="false" NavigateUrl="~/Admin/ExibirExcecoes.aspx" runat="server">EXCEÇÕES</asp:HyperLink>
+                    <a href="../Admin/Usuarios.aspx">Admin/Usuarios</a>
+                </div>
+
+            </div>
+        </div>
+        <!-- CONTEÚDO -->
+        <div class="conteudo content-wrapper">
+            <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <!-- RODAPÉ -->
+        <div class="rodape ">
+            <div class="content-wrapper">
+                Faculdade de Tecnologia de Americana
+                <br />
+                Curso de Análise e Desenvolvimento de sistemas
+                <br />
+                FATEC 2021 - Manhã
+            </div>
+        </div>
+
+    </form>
+</body>
+</html>

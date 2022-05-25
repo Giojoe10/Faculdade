@@ -1,0 +1,87 @@
+DATA: 23/03/2021 09:48:28
+MensagemFalha ao enviar email.
+TRACE:    em System.Net.Mail.SmtpClient.Send(MailMessage message)
+   em WebApplication3.Contato.Enviar_Click(Object sender, EventArgs e) na D:\Gi\FATEC\C#\PROJETOS\WebApplication3\Contato.aspx.cs:linha 69
+-----
+DATA: 01/06/2021 08:00:19
+Mensagem: Exceção do tipo 'System.Web.HttpUnhandledException' foi acionada.
+TRACE:    em System.Web.UI.Page.HandleError(Exception e)
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   em System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   em System.Web.UI.Page.ProcessRequest()
+   em System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   em System.Web.UI.Page.ProcessRequest(HttpContext context)
+   em ASP.admin_usuarios_aspx.ProcessRequest(HttpContext context)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----
+DATA: 08/06/2021 08:13:03
+Mensagem: D:\Gi\FATEC\C#\PROJETOS\WebApplication3\TrabalheConosco.aspx(52): error CS1061: 'trabalheconosco_aspx' does not contain a definition for 'ExibeUsuarios_SelectedIndexChanged' and no accessible extension method 'ExibeUsuarios_SelectedIndexChanged' accepting a first argument of type 'trabalheconosco_aspx' could be found (are you missing a using directive or an assembly reference?)
+TRACE:    em System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   em System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   em System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   em System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   em System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----
+DATA: 08/06/2021 08:13:12
+Mensagem: D:\Gi\FATEC\C#\PROJETOS\WebApplication3\TrabalheConosco.aspx(52): error CS1061: 'trabalheconosco_aspx' does not contain a definition for 'ExibeUsuarios_SelectedIndexChanged' and no accessible extension method 'ExibeUsuarios_SelectedIndexChanged' accepting a first argument of type 'trabalheconosco_aspx' could be found (are you missing a using directive or an assembly reference?)
+TRACE:    em System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   em System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   em System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   em System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   em System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   em System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----
+DATA: 08/06/2021 08:19:02
+Mensagem: D:\Gi\FATEC\C#\PROJETOS\WebApplication3\TrabalheConosco.aspx(52): error CS1061: 'trabalheconosco_aspx' does not contain a definition for 'ExibeUsuarios_SelectedIndexChanged' and no accessible extension method 'ExibeUsuarios_SelectedIndexChanged' accepting a first argument of type 'trabalheconosco_aspx' could be found (are you missing a using directive or an assembly reference?)
+TRACE:    em System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   em System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   em System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   em System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   em System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----
+DATA: 08/06/2021 08:19:04
+Mensagem: D:\Gi\FATEC\C#\PROJETOS\WebApplication3\TrabalheConosco.aspx(52): error CS1061: 'trabalheconosco_aspx' does not contain a definition for 'ExibeUsuarios_SelectedIndexChanged' and no accessible extension method 'ExibeUsuarios_SelectedIndexChanged' accepting a first argument of type 'trabalheconosco_aspx' could be found (are you missing a using directive or an assembly reference?)
+TRACE:    em System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   em System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   em System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   em System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   em System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   em System.Web.UI.PageHandlerFactory.GetHandler(HttpContext context, String requestType, String virtualPath, String path)
+   em System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----
+DATA: 06/03/2022 19:23:15
+Mensagem: Exceção do tipo 'System.Web.HttpUnhandledException' foi acionada.
+TRACE:    em System.Web.UI.Page.HandleError(Exception e)
+   em System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   em System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   em System.Web.UI.Page.ProcessRequest()
+   em System.Web.UI.Page.ProcessRequestWithNoAssert(HttpContext context)
+   em System.Web.UI.Page.ProcessRequest(HttpContext context)
+   em ASP.trabalheconosco_aspx.ProcessRequest(HttpContext context)
+   em System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   em System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   em System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+-----

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ADSM2021</name>
+    </assembly>
+    <members>
+        <member name="T:ADSM2021.RecoverExceptions">
+            <summary>
+            Recupera os dados da ultima exceção ocorrida na aplicação
+            </summary>
+        </member>
+        <member name="P:ADSM2021.RecoverExceptions.PathSave">
+            <summary>
+            Obtem ou define o caminho lógico onde será gravado o arquivo de exceções. Default: "~/Excecoes/Excecoes.txt".
+            </summary>
+        </member>
+        <member name="M:ADSM2021.RecoverExceptions.SaveException(System.Exception)">
+            <summary>
+            Salva os dados da exceção no caminho indicado em "PathSave"
+            </summary>
+            <param name="ex">Representa a classe "Exception" com os dados da exceção.</param>
+        </member>
+    </members>
+</doc>

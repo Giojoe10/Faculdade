@@ -1,0 +1,7 @@
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\bin\Debug\ADSM2021.dll
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\bin\Debug\ADSM2021.pdb
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\obj\Debug\ADSM2021.csprojAssemblyReference.cache
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\obj\Debug\ADSM2021.csproj.CoreCompileInputs.cache
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\obj\Debug\ADSM2021.dll
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\obj\Debug\ADSM2021.pdb
+D:\Gi\FATEC\C#\PROJETOS\Bibliotecas\ADSM2021\ADSM2021\bin\Debug\ADSM2021.xml

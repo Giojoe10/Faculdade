@@ -1,0 +1,1 @@
+﻿Esta pasta "App Code" é uma pasta do sistema para armazenar "classes" que serão visíveis por todo o código C#.

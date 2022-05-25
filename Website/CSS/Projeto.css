@@ -1,0 +1,84 @@
+﻿/*
+    ARQUIVO DE ESTILO DO PROJETO APPLICATION3
+    02/03/2021 - Giovaani Mateus Barbieri
+*/
+
+.cabecalho{
+    height:60px;
+    border-bottom:1px solid #c0c0c0;
+    position:relative;
+}
+
+.logomarca{
+    position:absolute;
+    top:0;
+    left:0;
+    height:60px;
+    width:60px;
+    text-align:center;
+
+}
+
+    .logomarca img {
+        height: 55px;
+        margin-top: 2px;
+    }
+
+
+.barra-titulo{
+    position:absolute;
+    top:0;
+    left:60px;
+    right:0;
+    height:30px;
+    padding-left:20px;
+    color:#777777;
+    font-size:12px;
+}
+
+
+.menu {
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    right: 0;
+    height: 30px;
+    padding-left: 20px;
+}
+
+    /* ESTILO 1 */
+/*    .menu a{
+        color:#535353;
+    }
+    .menu a:hover{
+        color:black;
+        border-bottom: 3px solid black;
+        padding-bottom: 2px;
+    }
+
+*/
+
+    .menu a {
+        color: #535353;
+        padding: 5px;
+    }
+
+    .menu a:hover {
+        color: black;
+        border: 1px solid #c0c0c0;
+        border-radius:4px;
+        padding: 4px;
+        background-color:#d7d7d7;
+     }
+
+.conteudo{
+    min-height:1600px;
+}
+
+.rodape{
+    height:200px;
+    border-top: 1px solid #c0c0c0;
+    background-color:lightgray;
+    padding:20px;
+
+}
